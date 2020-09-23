@@ -49,4 +49,20 @@ void main() {
     print(l);
     l++;
   } while (l < 2);
+
+  dynamic v = 123; // v is of type int.
+  v = 456; // changing value of v from 123 to 456.
+  v = 'abc'; // changing type of v from int to String.
+
+  var x = 123; // x is of type int.
+  // x = 456; // changing value of x from 123 to 456.
+  // x = 'abc'; // ERROR: can't change type of x from int to String.
+
+  final m = 123; // m is of type int.
+  // m = 456; //ERROR: can't change value of m from 123 to 456.
+  // n = 'abc'; // ERROR: can't change type of m from int to String.
+
+  const n = 123; // m is of type int.
+  // n = 456; //ERROR: can't change value of m from 123 to 456.
+  // m = 'abc'; // ERROR: can't change type of m from int to String.
 }
