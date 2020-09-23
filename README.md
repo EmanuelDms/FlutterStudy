@@ -1,8 +1,11 @@
-# Flutter Study
-<p align="center">A repository for Flutter and Dart!</p>
+<img src='.github/logo_dart_192px.svg' width='53px' >
+<img src='.github/flutter-lockup.png' width='353px'>
+<br><br>
 
-<img src='.github/logo_dart_192px.svg' width='253px' height='50px'>
-<img src='.github/flutter-lockup.png' width='153px'>
+# Flutter Study
+A repository for Flutter and Dart!
+
+
 
 
 
