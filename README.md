@@ -3,8 +3,10 @@
 <br><br>
 
 # Flutter Study
-A repository for Flutter and Dart!
+Um repositório para estudo de Flutter e Dart!
 
+## Anotações!
+- Compile time: Refere-se a duração de tempo em que o programa é convertido para código de máquina (código binário) e geralmente ocorre antes do tempo de execução;
 
 
 
