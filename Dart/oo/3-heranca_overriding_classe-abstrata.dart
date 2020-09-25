@@ -2,6 +2,7 @@
 -> Herança: É um princípio de POO que permite criar uma nova classe a partir de uma já existente, criando uma hierarquia entre as classes existentes;
 + superclasse: a classe que é herdada;
 + subclasse: a classe que herda a superclasse;
+-> Abstract Class: A class that can't be instatiated. This class is very useful for defining interfaces;
 */
 
 // Herdar uma classe que não fará sentido sozinha, então usa-se abstract, criando uma classe abstrata
@@ -33,6 +34,7 @@ class Cachorro extends Animal {
     print("A fofura do $nome aumentou!!! (${fofura}xp)");
   }
 
+  // Allows to override a superclass method
   @override
   void fazerBarulho() {
     print("$nome faz auau!!!");
@@ -47,6 +49,7 @@ class Gato extends Animal {
     print(bigode ? 'Que bigode!' : 'Coitado!');
   }
 
+  // Allows to override a superclass method
   @override
   void fazerBarulho() {
     print("$nome faz miauuu!!!");
