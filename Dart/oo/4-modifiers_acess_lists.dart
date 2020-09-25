@@ -18,4 +18,24 @@ void main() {
   print(Person.name);
 // That type of modifier number can't be be assigned a value
   const numero = 3;
+
+  // Array of numbers keys
+  List<String> nomes = ['Emanuel', 'Moisés'];
+  nomes.removeAt(0);
+  nomes.add('Emanuel');
+  print(nomes);
+
+  // Array of custom keys
+  /**
+   * String => type of keys
+   * dynamic => type of value
+   */
+  Map<String, dynamic> pessoa1 = Map();
+  pessoa1['nome'] = 'Emanuel';
+  pessoa1['idade'] = 17;
+
+// Multidimensional array
+  Map<dynamic, dynamic> pessoa = Map();
+  pessoa[0] = pessoa1;
+  print(pessoa);
 }
